@@ -1,0 +1,21 @@
+current directory: /Users/hashimotonoriaki/railsApp/WonderfulPostApp/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+/Users/hashimotonoriaki/.rbenv/versions/3.1.3/bin/ruby -I /Users/hashimotonoriaki/.rbenv/versions/3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/hashimotonoriaki/railsApp/WonderfulPostApp/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230901-77034-4r12mq sitelibdir\=./.gem.20230901-77034-4r12mq clean
+
+current directory: /Users/hashimotonoriaki/railsApp/WonderfulPostApp/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230901-77034-4r12mq sitelibdir\=./.gem.20230901-77034-4r12mq
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+
+current directory: /Users/hashimotonoriaki/railsApp/WonderfulPostApp/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230901-77034-4r12mq sitelibdir\=./.gem.20230901-77034-4r12mq install
+/usr/local/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20230901-77034-4r12mq
